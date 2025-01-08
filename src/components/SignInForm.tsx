@@ -19,7 +19,7 @@ const SignInForm = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="bg-white rounded-xl shadow-lg p-8 w-96">
-        <p className='text-center px-5 m-5 underline hover:text-blue-500'>VSF Corporation pvt Limited.</p>
+        <p className='text-center px-5 m-5 underline hover:text-blue-500'>VSF Corporation Pvt Limited.</p>
         <h1 className="text-2xl font-bold text-center mb-6">Sign In</h1>
         
         <form onSubmit={handleUserIdSubmit} className="space-y-4">
